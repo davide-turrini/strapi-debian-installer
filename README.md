@@ -22,16 +22,16 @@ curl https://raw.githubusercontent.com/davide-turrini/strapi-debian-installer/ma
 
 ### 3. Build image (see [doc](https://strapi.io/documentation/developer-docs/latest/setup-deployment-guides/installation/docker.html#creating-a-strapi-project)) 🛠️
 ```bash
-docker-compose pull
+sudo docker-compose pull
 ```
 
 ### 4. Create container (see [doc](https://strapi.io/documentation/developer-docs/latest/setup-deployment-guides/installation/docker.html#creating-a-strapi-project)) ⏯️
 Execute Docker image detaching the terminal
 ```bash
-docker-compose up -d
+sudo docker-compose up -d
 ```
 Execute Docker image without detaching the terminal
 ```bash
-docker-compose up
+sudo docker-compose up
 ```
 
