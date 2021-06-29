@@ -17,7 +17,7 @@ curl https://raw.githubusercontent.com/davide-turrini/strapi-debian-installer/ma
 
 ### 2. Download docker compose file (see [doc](https://strapi.io/documentation/developer-docs/latest/setup-deployment-guides/installation/docker.html#creating-a-strapi-project)) ⬇️
 ```bash
-curl https://raw.githubusercontent.com/davide-turrini/strapi-debian-installer/master/docker-compose.yaml > docker-compose.yam
+curl https://raw.githubusercontent.com/davide-turrini/strapi-debian-installer/master/docker-compose.yaml > docker-compose.yaml
 ```
 
 ### 3. Build image (see [doc](https://strapi.io/documentation/developer-docs/latest/setup-deployment-guides/installation/docker.html#creating-a-strapi-project)) 🛠️
